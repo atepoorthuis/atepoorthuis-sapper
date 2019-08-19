@@ -1,46 +1,18 @@
 <style>
-	h1, figure, p {
-		text-align: center;
-		margin: 0 auto;
-	}
 
-	h1 {
-		font-size: 2.8em;
-		text-transform: uppercase;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
-	}
-
-	figure {
-		margin: 0 0 1em 0;
-	}
-
-	img {
-		width: 100%;
-		max-width: 400px;
-		margin: 0 0 1em 0;
-	}
-
-	p {
-		margin: 1em auto;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
-		}
-	}
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+  <title>Ate Poorthuis</title>
 </svelte:head>
 
-<h1>Great success!</h1>
-
-<figure>
-	<img alt='Borat' src='great-success.png'>
-	<figcaption>HIGH FIVE!</figcaption>
-</figure>
-
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+<p>
+  Hi, I'm Ate Poorthuis. I'm an Assistant Professor in the Humanities, Arts and
+  Social Sciences at Singapore University of Technology and Design. My research
+  explores the possibilities and limitations of big data, through quantitative
+  analysis and visualization, to better understand how our cities work. I have a
+  particular interest in the practical application of these academic insights
+  within urban planning and policy. Other projects I have worked on include the
+  DOLLY Project, a repository of billions of geolocated social media, which is
+  used to address the difficulties of using big data within the social sciences.
+</p>
