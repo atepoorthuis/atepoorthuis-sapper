@@ -1,22 +1,23 @@
 <script>
-	import Nav from '../components/Nav.svelte';
-
-	export let segment;
+	import Nav from '../components/Nav.svelte'
+	export let segment
+	let openMenu = false
 </script>
 
 <style>
-	main {
-		position: relative;
-		max-width: 56em;
-		background-color: white;
-		padding: 2em;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
+.openMenu {
+	@apply block;
+}
 </style>
 
-<Nav {segment}/>
-
-<main>
-	<slot></slot>
-</main>
+<div class="flex m-5 mt-8 text-gray-800 font-serif font-light">
+	<div class="block mr-4 font-sans font-light tracking-tight text-sm">
+		<button on:click={() => openMenu ^= true} class="sm:hidden mb-4 p-3 border rounded border-teal-light">
+			<svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+		</button>
+		<div class:openMenu class="w-1/5 sm:flex sm:items-center sm:w-auto hidden"><Nav {segment}/></div>
+	</div>
+	<main class="w-4/5 max-w-3xl container">
+		<slot></slot>
+	</main>
+</div>
