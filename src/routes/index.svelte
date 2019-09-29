@@ -22,7 +22,7 @@ function formatPub (pub) {
       html += author.family
     }
     if (author.family === 'Poorthuis') {
-      html = `<span class="font-bold">${html}</span>`
+      html = `<span class="font-semibold">${html}</span>`
     }
     if (pub.author.length > 1) {
       if (index === pub.author.length - 2) {
@@ -53,7 +53,7 @@ h2 {
   <title>Ate Poorthuis</title>
 </svelte:head>
 
-<div class="intro">
+<div class="intro text-justify md:text-left">
 	<p>
 	Hi, I'm Ate Poorthuis. I'm an Assistant Professor in the Humanities, Arts and
 	Social Sciences at Singapore University of Technology and Design. My research
@@ -69,18 +69,17 @@ h2 {
 <div class="education">
 	<a href="#education" name="education"><h2>Education</h2></a>
 	<div class="mb-3">
-		<p>PhD in Geography</p>
-		<p class="text-gray-600">University of Kentucky</p>
+		<p>⬡ PhD in Geography</p>
+		<p class="italic">University of Kentucky</p>
 	</div>
 	<div class="mb-3">
-		<p>MSc (Research) in Metropolitan Studies</p>
-		<p class="text-gray-600">University of Amsterdam</p>
+		<p>⬡ MSc (Research) in Metropolitan Studies</p>
+		<p class="italic">University of Amsterdam</p>
 	</div>
 	<div class="mb-3">
-		<p>BSc in Human Geography</p>
-		<p class="text-gray-600">University of Amsterdam</p>
+		<p>⬡ BSc in Human Geography</p>
+		<p class="italic">University of Amsterdam</p>
 	</div>
-	
 </div>
 
 <div class="publications">

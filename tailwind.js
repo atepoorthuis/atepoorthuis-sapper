@@ -10,14 +10,10 @@ module.exports = {
         '"Helvetica Neue"',
         'Arial',
         '"Noto Sans"',
-        'sans-serif',
-        '"Apple Color Emoji"',
-        '"Segoe UI Emoji"',
-        '"Segoe UI Symbol"',
-        '"Noto Color Emoji"'
+        'sans-serif'
       ],
       serif: [
-        '"Crimson Pro"',
+        '"IBM Plex Serif"',
         'Georgia',
         'Cambria',
         '"Times New Roman"',
@@ -28,8 +24,6 @@ module.exports = {
         'Menlo',
         'Monaco',
         'Consolas',
-        '"Liberation Mono"',
-        '"Courier New"',
         'monospace'
       ]
     },

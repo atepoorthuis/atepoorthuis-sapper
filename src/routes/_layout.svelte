@@ -17,7 +17,7 @@
 		</button>
 		<div class:openMenu class="w-1/5 sm:flex sm:items-center sm:w-auto hidden"><Nav {segment}/></div>
 	</div>
-	<main class="w-4/5 max-w-3xl container">
+	<main class="w-4/5 max-w-3xl container text-xs sm:text-sm md:text-base">
 		<slot></slot>
 	</main>
 </div>
