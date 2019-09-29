@@ -91,4 +91,4 @@ h2 {
 
 <!-- <a href="#projects" name="projects"><h2>Projects</h2></a> -->
 
-<a href="#teaching" name="teaching"><h2>Teaching</h2></a>
+<!-- <a href="#teaching" name="teaching"><h2>Teaching</h2></a> -->
