@@ -80,7 +80,7 @@ export default {
       postcss({
         minimize: true,
         extract: './static/index.css'
-	  }),
+	    }),
       resolve({
         dedupe
       }),

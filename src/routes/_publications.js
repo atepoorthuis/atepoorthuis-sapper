@@ -25,5 +25,28 @@ export default [
         3
       ]
     }
+  },
+  {
+    title: 'How to Draw a Neighborhood? The Potential of Big Data, Regionalization, and Community Detection for Understanding the Heterogeneous Nature of Urban Neighborhoods.',
+    volume: '50',
+    issue: '2',
+    URL: 'https://doi.org/10.1111/gean.12143',
+    DOI: '10.1111/gean.12143',
+    preprint: 'https://osf.io/preprints/socarxiv/5wncz',
+    'container-title': 'Geographical Analysis',
+    author: [
+      {
+        family: 'Poorthuis',
+        given: 'Ate'
+      }
+    ],
+    page: '182-203',
+    type: 'article-journal',
+    issued: {
+      'date-parts': [
+        2018,
+        4
+      ]
+    }
   }
 ]
