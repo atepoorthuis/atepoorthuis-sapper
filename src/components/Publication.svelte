@@ -26,14 +26,26 @@ function formatPub (pub) {
     }
     authors += html
   }
-  return `
+  let output = `
   <ul class="mb-2">${authors} (${pub.issued['date-parts'][0]}). 
-  ${pub.title} <span class="italic">${pub['container-title']}</span> 
-  (${pub.volume}) ${pub.issue}, pp. ${pub.page}. 
-  <button class="border pl-1 pr-1 rounded"><a href=${pub.URL}>doi</a></button>
-  <button class="border pl-1 pr-1 rounded"><a href=${pub.preprint}>preprint</a></button>
-  </ul>
-  `
+  ${pub.title} <span class="italic">${pub['container-title']}</span>`
+  if (pub.volume) {
+    output += ` (${pub.volume})`
+  }
+  if (pub.issue) {
+    output += ` ${pub.issue}`
+  }
+  if (pub.page) {
+    output += `, pp. ${pub.page}`
+  }
+  output += '.'
+  if (pub.URL) {
+    output += ` <button class="border pl-1 pr-1 rounded"><a href=${pub.URL}>doi</a></button>`
+  }
+  if (pub.preprint) {
+    output += ` <button class="border pl-1 pr-1 rounded"><a href=${pub.preprint}>preprint</a></button>`
+  }
+  return output
 }
 </script>
 

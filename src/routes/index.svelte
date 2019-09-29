@@ -43,7 +43,7 @@ h2 {
 </div>
 
 <div class="publications">
-	<a href="#publications" name="publications"><h2>Recent Publications</h2></a>
+	<a href="#publications" name="publications"><h2>Recent Work</h2></a>
 	{#each pubs as pub}
 		<Publication {pub} />
 	{/each}
