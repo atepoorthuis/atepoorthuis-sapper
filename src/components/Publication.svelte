@@ -42,7 +42,7 @@ function formatArticle (pub) {
   }
   output += '.'
   if (pub.URL) {
-    output += ` <button class="border pl-1 pr-1 rounded"><a href=${pub.URL} target="_blank" rel="noopener noreferrer">doi</a></button>`
+    output += ` <button class="border pl-1 pr-1 rounded"><a href="${pub.URL}" target="_blank" rel="noopener noreferrer">doi</a></button>`
   }
   return output
 }
@@ -62,7 +62,7 @@ function formatChapter (pub) {
   }
   output += '.'
   if (pub.URL) {
-    output += ` <button class="border pl-1 pr-1 rounded"><a href=${pub.URL} target="_blank" rel="noopener noreferrer">isbn</a></button>`
+    output += ` <button class="border pl-1 pr-1 rounded"><a href="${pub.URL}" target="_blank" rel="noopener noreferrer">isbn</a></button>`
   }
   return output
 }
@@ -78,7 +78,7 @@ function formatPub (pub) {
     output += formatChapter(pub)
   }
   if (pub.preprint) {
-    output += ` <button class="border pl-1 pr-1 rounded"><a href=${pub.preprint} target="_blank" rel="noopener noreferrer">preprint</a></button>`
+    output += ` <button class="border pl-1 pr-1 rounded"><a href="${pub.preprint}" target="_blank" rel="noopener noreferrer">preprint</a></button>`
   }
   return output
 }
