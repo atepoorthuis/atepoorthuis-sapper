@@ -80,6 +80,12 @@ function formatPub (pub) {
   if (pub.preprint) {
     output += ` <button class="border pl-1 pr-1 rounded"><a href="${pub.preprint}" target="_blank" rel="noopener noreferrer">preprint</a></button>`
   }
+  if (pub.code) {
+    output += ` <button class="border pl-1 pr-1 rounded"><a href="${pub.code}" target="_blank" rel="noopener noreferrer">code & data</a></button>`
+  }
+  if (pub.interactive) {
+    output += ` <button class="border pl-1 pr-1 rounded"><a href="${pub.interactive}" target="_blank" rel="noopener noreferrer">interactive</a></button>`
+  }
   return output
 }
 </script>
