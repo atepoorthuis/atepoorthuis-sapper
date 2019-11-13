@@ -58,7 +58,7 @@ export default [
   {
     title: 'A roundtable discussion: Defining urban data science.',
     volume: '46',
-    volume: '9',
+    issue: '9',
     URL: 'https://doi.org/10.1177/2399808319882826',
     DOI: '10.1177/2399808319882826',
     preprint: 'https://escholarship.org/uc/item/9104t41q',
