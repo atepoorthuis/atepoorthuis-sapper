@@ -1,5 +1,112 @@
 export default [
   {
+    title: 'Being Smarter about Space: Drawing Lessons from Spatial Science.',
+    volume: 'Online First',
+    URL: 'https://doi.org/10.1080/24694452.2019.1674630',
+    DOI: '10.1080/24694452.2019.1674630',
+    preprint: 'https://doi.org/10.31235/osf.io/u2w6n',
+    'container-title': 'Annals of the American Association of Geographers',
+    author: [
+      {
+        family: 'Poorthuis',
+        given: 'Ate'
+      },
+      {
+        family: 'Zook',
+        given: 'Matthew'
+      }
+    ],
+    type: 'article-journal',
+    issued: {
+      'date-parts': [
+        2019,
+        11
+      ]
+    }
+  },
+  {
+    title: 'Attentional Social Media: Mapping the Spaces and Networks of the Fashion Industry.',
+    volume: 'Online First',
+    URL: 'https://doi.org/10.1080/24694452.2019.1664887',
+    DOI: '10.1080/24694452.2019.1664887',
+    preprint: 'https://doi.org/10.1080/24694452.2019.1664887',
+    code: 'https://github.com/atepoorthuis/geography-of-fashion',
+    interactive: 'https://geography-of-fashion.netlify.com/',
+    'container-title': 'Annals of the American Association of Geographers',
+    author: [
+      {
+        family: 'Poorthuis',
+        given: 'Ate'
+      },
+      {
+        family: 'Power',
+        given: 'Dominic'
+      },
+      {
+        family: 'Zook',
+        given: 'Matthew'
+      }
+    ],
+    type: 'article-journal',
+    issued: {
+      'date-parts': [
+        2019,
+        10
+      ]
+    }
+  },
+  {
+    title: 'A roundtable discussion: Defining urban data science.',
+    volume: '46',
+    volume: '9',
+    URL: 'https://doi.org/10.1177/2399808319882826',
+    DOI: '10.1177/2399808319882826',
+    preprint: 'https://escholarship.org/uc/item/9104t41q',
+    'container-title': 'Environment and Planning B: Urban Analytics and City Science',
+    author: [
+      {
+        family: 'Kang',
+        given: 'Wei'
+      },
+      {
+        family: 'Oshan',
+        given: 'Taylor'
+      },
+      {
+        family: 'Wolf',
+        given: 'Levi J.'
+      },
+      {
+        family: 'Boeing',
+        given: 'Geoff'
+      },
+      {
+        family: 'Frias-Martinez',
+        given: 'Vanessa'
+      },
+      {
+        family: 'Gao',
+        given: 'Song'
+      },
+      {
+        family: 'Poorthuis',
+        given: 'Ate'
+      },
+      {
+        family: 'Xu',
+        given: 'Wenfei'
+      }
+    ],
+    type: 'article-journal',
+    page: '1756-1768',
+    issued: {
+      'date-parts': [
+        2019,
+        11
+      ]
+    }
+  },
+  {
     title: 'The nature of neighborhoods: using big data to rethink the geographies of Atlanta’s Neighborhood Planning Unit system.',
     volume: '109',
     issue: '5',
@@ -73,66 +180,6 @@ export default [
       'date-parts': [
         2018,
         1
-      ]
-    }
-  },
-  {
-    title: 'The canary in the city: indicator groups as predictors of local rent increases.',
-    URL: 'https://doi.org/10.1140/epjds/s13688-018-0151-y',
-    DOI: '10.1140/epjds/s13688-018-0151-y',
-    preprint: 'https://arxiv.org/abs/1712.08924',
-    'container-title': 'EPJ Data Science',
-    author: [
-      {
-        family: 'Steentoft',
-        given: 'Aike'
-      },
-      {
-        family: 'Poorthuis',
-        given: 'Ate'
-      },
-      {
-        family: 'Lee',
-        given: 'Bu-Sung'
-      },
-      {
-        family: 'Schläpfer',
-        given: 'Markus'
-      }
-    ],
-    page: '7-21',
-    type: 'article-journal',
-    issued: {
-      'date-parts': [
-        2018,
-        12
-      ]
-    }
-  },
-  {
-    title: 'Making Big Data Small: Strategies to Expand Urban and Geographical Research Using Social Media.',
-    volume: '24',
-    issue: '4',
-    URL: 'https://doi.org/10.1080/10630732.2017.1335153',
-    DOI: '10.1080/10630732.2017.1335153',
-    preprint: 'https://osf.io/preprints/socarxiv/ey25n/',
-    'container-title': 'Journal of Urban Technology',
-    author: [
-      {
-        family: 'Poorthuis',
-        given: 'Ate'
-      },
-      {
-        family: 'Zook',
-        given: 'Matthew'
-      }
-    ],
-    page: '115-135',
-    type: 'article-journal',
-    issued: {
-      'date-parts': [
-        2017,
-        6
       ]
     }
   }

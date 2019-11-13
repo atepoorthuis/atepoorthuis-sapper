@@ -54,6 +54,9 @@ a {
 			<li class="mb-2"><Publication {pub} /></li>
 		{/each}
 	</ul>
+	<div class="font-sans font-normal">
+		⤷ <a href='/publications'>More Publications</a>
+	</div>
 </div>
 
 <div class="teaching">
