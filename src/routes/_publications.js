@@ -1,5 +1,31 @@
 export default [
   {
+    title: 'Containment and Connectivity in Dutch Urban Systems: A Network‐Analytical Operationalisation of the Three‐Systems Model.',
+    volume: 'Online First',
+    URL: 'https://doi.org/10.1111/tesg.12391',
+    DOI: '10.1111/tesg.12391',
+    preprint: 'https://doi.org/10.31235/osf.io/y7dxf',
+    code: 'https://github.com/atepoorthuis/containment-connectivity-urban-systems',
+    'container-title': 'Tijdschrift voor Economische en Sociale Geografie',
+    author: [
+      {
+        family: 'Poorthuis',
+        given: 'Ate'
+      },
+      {
+        family: 'van Meeteren',
+        given: 'Michiel'
+      }
+    ],
+    type: 'article-journal',
+    issued: {
+      'date-parts': [
+        2019,
+        11
+      ]
+    }
+  },
+  {
     title: 'Being Smarter about Space: Drawing Lessons from Spatial Science.',
     volume: 'Online First',
     URL: 'https://doi.org/10.1080/24694452.2019.1674630',
