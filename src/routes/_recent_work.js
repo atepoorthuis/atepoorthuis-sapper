@@ -1,5 +1,32 @@
 export default [
   {
+    title: 'Being Smarter about Space: Drawing Lessons from Spatial Science.',
+    volume: '110',
+    issue: '2',
+    URL: 'https://doi.org/10.1080/24694452.2019.1674630',
+    DOI: '10.1080/24694452.2019.1674630',
+    preprint: 'https://doi.org/10.31235/osf.io/u2w6n',
+    'container-title': 'Annals of the American Association of Geographers',
+    author: [
+      {
+        family: 'Poorthuis',
+        given: 'Ate'
+      },
+      {
+        family: 'Zook',
+        given: 'Matthew'
+      }
+    ],
+    type: 'article-journal',
+    issued: {
+      'date-parts': [
+        2020,
+        3
+      ]
+    },
+    page: '349-359'
+  },
+  {
     title: 'Containment and Connectivity in Dutch Urban Systems: A Network‐Analytical Operationalisation of the Three‐Systems Model.',
     volume: 'Online First',
     URL: 'https://doi.org/10.1111/tesg.12391',
@@ -15,31 +42,6 @@ export default [
       {
         family: 'van Meeteren',
         given: 'Michiel'
-      }
-    ],
-    type: 'article-journal',
-    issued: {
-      'date-parts': [
-        2019,
-        11
-      ]
-    }
-  },
-  {
-    title: 'Being Smarter about Space: Drawing Lessons from Spatial Science.',
-    volume: 'Online First',
-    URL: 'https://doi.org/10.1080/24694452.2019.1674630',
-    DOI: '10.1080/24694452.2019.1674630',
-    preprint: 'https://doi.org/10.31235/osf.io/u2w6n',
-    'container-title': 'Annals of the American Association of Geographers',
-    author: [
-      {
-        family: 'Poorthuis',
-        given: 'Ate'
-      },
-      {
-        family: 'Zook',
-        given: 'Matthew'
       }
     ],
     type: 'article-journal',

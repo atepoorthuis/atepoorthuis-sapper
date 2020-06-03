@@ -10,6 +10,9 @@ h2 {
 a {
   @apply underline;
 }
+p {
+	@apply mb-2;
+}
 </style>
 
 <svelte:head>
@@ -18,16 +21,22 @@ a {
 
 <div class="intro text-justify md:text-left">
 	<p>
-	Hi, I'm Ate Poorthuis. I'm an Assistant Professor in the <a href="https://hass.sutd.edu.sg"
-	target="_blank" rel="noopener noreferrer">Humanities, Arts and
-	Social Sciences</a> at the <a href="https://www.sutd.edu.sg" target="_blank" rel="noopener noreferrer">
-	Singapore University of Technology and Design</a>. My research explores the possibilities and
-	limitations of big data, through quantitative
+	Hi, I'm Ate Poorthuis. I'm an Assistant Professor of Big Data and Human-Environment Systems
+	in the <a href="https://ees.kuleuven.be/" target="_blank" rel="noopener noreferrer">Department of
+	Earth and Environmental Sciences</a>
+	at <a href="https://www.kuleuven.be/english/" target="_blank" rel="noopener noreferrer">
+	KU Leuven</a>. My research explores the possibilities and limitations of big data, through quantitative
 	analysis and visualization, to better understand how our cities work. I have a
 	particular interest in the practical application of these academic insights
 	within urban planning and policy. Other projects I have worked on include the
 	DOLLY Project, a repository of billions of geolocated social media, which is
 	used to address the difficulties of using big data within the social sciences.
+	</p>
+	<p>
+	Before joining KU Leuven in June 2020, I was a faculty member in the <a href="https://hass.sutd.edu.sg"
+	target="_blank" rel="noopener noreferrer">Humanities, Arts and
+	Social Sciences</a> at the <a href="https://www.sutd.edu.sg" target="_blank" rel="noopener noreferrer">
+	Singapore University of Technology and Design</a>. 
 	</p>
 </div>
 
@@ -61,8 +70,8 @@ a {
 
 <div class="teaching">
 	<h2>Teaching</h2>
-	<p class="mb-2">I teach the following courses at the
-	Singapore University of Technology and Design:</p>
+	<p class="mb-2">At the Singapore University of Technology and Design 
+	I have taught the following courses:</p>
 	<ul>
 		<li class="mb-2">⬡ Research Methodology for Urban Analysis (MSc 
 		<a href="https://urbanscience.sutd.edu.sg/" target="_blank" rel="noopener noreferrer">
@@ -76,7 +85,7 @@ a {
 		<li class="mb-2">⬡ Making Maps I: Introduction to Spatial Analysis and Data Visualization</li>
 		<li class="mb-2">⬡ Theorizing Society, the Self, and Culture (Introduction to Social Science)</li>
 	</ul>
-	<p class="mb-2 mt-4">Previous courses I have taught include::</p>
+	<p class="mb-2 mt-4">Courses I have also taught include:</p>
 	<ul>
 		<li class="mb-2">⬡ Introduction to Geographic Information Systems (University of Kentucky, University of Amsterdam)</li>
 		<li class="mb-2">⬡ Advanced Geographic Information Systems (University of Amsterdam)</li>
