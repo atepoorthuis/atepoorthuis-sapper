@@ -79,7 +79,8 @@ p {
 		<li class="mb-2">⬡ Computational Urban Analysis (MSc 
 		<a href="https://urbanscience.sutd.edu.sg/" target="_blank" rel="noopener noreferrer">
 		Urban Science, Policy and Planning</a>)</li>
-		<li class="mb-2">⬡ Interactive Data Visualization (MSc 
+		<li class="mb-2">⬡ <a href="https://idv-2020.teaching.atepoorthuis.com/" target="_blank" rel="noopener noreferrer">
+		Interactive Data Visualization</a> (MSc 
 		<a href="https://urbanscience.sutd.edu.sg/" target="_blank" rel="noopener noreferrer">
 		Urban Science, Policy and Planning</a>)</li>
 		<li class="mb-2">⬡ Making Maps I: Introduction to Spatial Analysis and Data Visualization</li>
